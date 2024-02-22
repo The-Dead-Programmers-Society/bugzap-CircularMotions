@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://btqwi6awkehej"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_y6eb6"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(518, 899)
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+modulate = Color(0.72549, 0, 1, 1)
+scale = Vector2(50, 50)
+texture = SubResource("CanvasTexture_y6eb6")
